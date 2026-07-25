@@ -126,10 +126,10 @@
       background: linear-gradient(135deg, rgba(11,26,53,0.88) 0%, rgba(11,26,53,0.4) 100%);
     }
     /* ── REMPLACER CES URLs PAR VOS IMAGES ── */
-    .slide-bg-1 { background-image: url('img/carousel-01.jpg'); }
-    .slide-bg-2 { background-image: url('img/carousel-02.jpg'); }
-    .slide-bg-3 { background-image: url('img/carousel-03.jpg'); }
-    .slide-bg-4 { background-image: url('img/carousel-04.jpg'); }
+    .slide-bg-1 { background-image: url('../img/carousel-01.jpg'); }
+    .slide-bg-2 { background-image: url('../img/carousel-02.jpg'); }
+    .slide-bg-3 { background-image: url('../img/carousel-03.jpg'); }
+    .slide-bg-4 { background-image: url('../img/carousel-04.jpg'); }
     .hero-content { position: relative; z-index: 2; }
     .hero-overline {
       font-family: var(--font-body);
