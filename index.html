@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eglise Vase d'Honneur Bénin</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ── NAVBAR ── -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="#accueil">
+      <div>
+        <span>Vase d'Honneur</span>
+        <small>Eglise · Bénin</small>
+      </div>
+    </a>
+    <button class="navbar-toggler border-0 p-1" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <i class="bi bi-list text-white fs-4"></i>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navMenu">
+      <ul class="navbar-nav gap-1">
+        <li class="nav-item"><a class="nav-link active" href="#accueil">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">À Propos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#programmes">Programmes</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#formations" role="button" data-bs-toggle="dropdown">Formations</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#formations">Formation Serviteurs</a></li>
+            <li><a class="dropdown-item" href="#formations">Formation Eden (Mariage)</a></li>
+            <li><a class="dropdown-item" href="#formations">Formation Générale</a></li>
+            <li><a class="dropdown-item" href="#formations">Académie</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#eglises-filles">Eglises Filles</a></li>
+        <li class="nav-item"><a class="nav-link" href="#prieres">Requêtes de Prières</a></li>
+        <li class="nav-item"><a class="nav-link" href="#temoignages">Témoignages</a></li>
+      </ul>
+    </div>
+    <a href="#donnez" class="btn btn-offrande ms-3 d-none d-lg-block">Offrandes</a>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<section id="accueil">
+  <div id="heroCarousel" class="carousel slide carousel-fade hero-carousel" data-bs-ride="carousel" data-bs-interval="5500">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"></button>
+    </div>
+    <div class="carousel-inner h-100">
+      <div class="carousel-item active h-100">
+        <div class="hero-slide slide-bg-1">
+          <div class="container hero-content">
+            <span class="hero-overline">Eglise Vase d'Honneur · Bénin</span>
+            <h1 class="hero-title">Vous êtes un <em>Vase</em><br>d'Honneur</h1>
+            <p class="hero-subtitle">Venez découvrir une église vivante, ancrée dans la Parole de Dieu et la puissance du Saint-Esprit, rayonnant à travers tout le Bénin.</p>
+            <div class="hero-ctas">
+              <a href="#about" class="btn-primary-gold">Découvrir l'Église</a>
+              <a href="#programmes" class="btn-outline-gold">Nos Programmes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item h-100">
+        <div class="hero-slide slide-bg-2">
+          <div class="container hero-content">
+            <span class="hero-overline">Formation & Discipulat</span>
+            <h1 class="hero-title">Formés pour <em>régner</em><br>dans sa gloire</h1>
+            <p class="hero-subtitle">L'Académie, Formation Serviteurs, Formation Eden — des programmes pour vous équiper et vous transformer.</p>
+            <div class="hero-ctas">
+              <a href="#formations" class="btn-primary-gold">Nos Formations</a>
+              <a href="#prieres" class="btn-outline-gold">Requête de Prière</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item h-100">
+        <div class="hero-slide slide-bg-3">
+          <div class="container hero-content">
+            <span class="hero-overline">Eglises Filles · Bénin</span>
+            <h1 class="hero-title">Présents dans tout<br>le <em>territoire</em></h1>
+            <p class="hero-subtitle">De Cotonou à Parakou, nos églises filles portent la flamme de l'évangile à travers les 12 départements du Bénin.</p>
+            <div class="hero-ctas">
+              <a href="#eglises-filles" class="btn-primary-gold">Voir les Eglises</a>
+              <a href="#temoignages" class="btn-outline-gold">Témoignages</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item h-100">
+        <div class="hero-slide slide-bg-4">
+          <div class="container hero-content">
+            <span class="hero-overline">Communauté & Louange</span>
+            <h1 class="hero-title">Adorons <em>ensemble</em><br>en Esprit</h1>
+            <p class="hero-subtitle">Rejoignez une communauté qui prie, qui loue et qui avance avec foi, chaque dimanche à Cotonou.</p>
+            <div class="hero-ctas">
+              <a href="#prieres" class="btn-primary-gold">Envoyer une Prière</a>
+              <a href="#donnez" class="btn-outline-gold">Faire une Offrande</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── STATS BAR ── -->
+<div class="stats-bar">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-6 col-md-3 stat-item reveal">
+        <span class="stat-number">7+</span>
+        <span class="stat-label">Eglises Filles</span>
+      </div>
+      <div class="col-md-1 d-none d-md-flex justify-content-center">
+        <div class="stat-divider"></div>
+      </div>
+      <div class="col-6 col-md-2 stat-item reveal reveal-delay-1">
+        <span class="stat-number">12+</span>
+        <span class="stat-label">Départements</span>
+      </div>
+      <div class="col-md-1 d-none d-md-flex justify-content-center">
+        <div class="stat-divider"></div>
+      </div>
+      <div class="col-6 col-md-2 stat-item reveal reveal-delay-2">
+        <span class="stat-number">3</span>
+        <span class="stat-label">Formations</span>
+      </div>
+      <div class="col-md-1 d-none d-md-flex justify-content-center">
+        <div class="stat-divider"></div>
+      </div>
+      <div class="col-6 col-md-2 stat-item reveal reveal-delay-3">
+        <span class="stat-number">∞</span>
+        <span class="stat-label">Miracles</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── À PROPOS ── -->
+<section id="about" class="about-section">
+  <div class="container">
+    <div class="row align-items-center g-3">
+      <div class="col-lg-5 reveal-left">
+        <div class="about-image-wrap">
+          <img src="img/apropos.jpg" class="about-image-main" alt="Eglise Vase d'Honneur Bénin">
+          <div class="about-badge">
+            <strong>2022</strong>
+            <span>Fondée</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7 about-text reveal-right">
+        <span class="section-overline">À Propos de Nous</span>
+        <h2 class="section-title">Une Eglise Ancrée<br>dans la <em>Gloire de Dieu</em></h2>
+        <div class="section-divider"></div>
+        <p class="about-lead">"Car dans une grande maison, il n'y a pas seulement des vases d'or et d'argent, mais aussi des vases de bois et de terre, les uns destinés à des usages honorables..." — 2 Timothée 2:20</p>
+        <p class="about-body">Eglise Vase d'Honneur Bénin est une communauté de foi fondée sur la Parole de Dieu, dédiée à l'excellence spirituelle et à la transformation des vies. Implantée à Cotonou et rayonnant à travers tout le territoire béninois, notre église accueille chaque semaine des centaines de croyants en quête d'une relation authentique avec Dieu.</p>
+        <div class="row g-3 mt-1">
+          <div class="col-sm-6">
+            <div class="value-item">
+              <div class="value-icon"><i class="bi bi-book"></i></div>
+              <div>
+                <div class="value-title">Parole & Vérité</div>
+                <div class="value-desc">Enseignements solides fondés sur les Écritures</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="value-item">
+              <div class="value-icon"><i class="bi bi-fire"></i></div>
+              <div>
+                <div class="value-title">Puissance de l'Esprit</div>
+                <div class="value-desc">Miracles, guérisons et délivrances</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="value-item">
+              <div class="value-icon"><i class="bi bi-people"></i></div>
+              <div>
+                <div class="value-title">Communauté Fraternelle</div>
+                <div class="value-desc">Famille unie dans l'amour du Christ</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="value-item">
+              <div class="value-icon"><i class="bi bi-globe-americas"></i></div>
+              <div>
+                <div class="value-title">Fardeau des Âmes</div>
+                <div class="value-desc">Porter les âmes perdues au cœur de notre mission</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#programmes" class="btn-primary-gold mt-3 d-inline-block">Découvrir nos Programmes</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PROGRAMMES ── -->
+<section id="programmes" class="programmes-section">
+  <div class="container position-relative">
+    <div class="text-center mb-4 reveal">
+      <div class="gold-line justify-content-center">
+        <span>Vie de l'Eglise</span>
+      </div>
+      <h2 class="section-title">Nos <em>Programmes</em></h2>
+      <div class="section-divider center"></div>
+      <p class="text-muted" style="max-width:520px; margin: 0 auto; font-size: 0.88rem; font-weight: 300;">Des temps de rencontre réguliers pour grandir ensemble dans la foi, la prière et la communion fraternelle.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-xl-4 reveal reveal-delay-1">
+        <div class="prog-card card h-100">
+          <div class="prog-icon-wrap">
+            <div class="prog-icon"><i class="bi bi-sunrise"></i></div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Culte Dominical</h5>
+            <p class="card-text">Venez vivre un culte puissant chaque dimanche matin. Louange, adoration, Parole et prière se conjuguent pour vous édifier. Deux services disponibles pour vous accueillir.</p>
+            <div class="schedule"><i class="bi bi-calendar3"></i>Dimanche · 07h30–10h00 &amp; 10h30–13h30</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-xl-4 reveal reveal-delay-2">
+        <div class="prog-card card h-100">
+          <div class="prog-icon-wrap">
+            <div class="prog-icon"><i class="bi bi-lightning-charge"></i></div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Vendredi des Miracles</h5>
+            <p class="card-text">Chaque vendredi soir, rejoignez-nous pour un service de miracles, de guérisons et de délivrances. Des signes et prodiges se manifestent régulièrement par la puissance du Saint-Esprit.</p>
+            <div class="schedule"><i class="bi bi-calendar3"></i>Vendredi · 19h00 – 21h00</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-xl-4 reveal reveal-delay-3">
+        <div class="prog-card card h-100">
+          <div class="prog-icon-wrap">
+            <div class="prog-icon"><i class="bi bi-trophy"></i></div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Rendez-vous des Champions</h5>
+            <p class="card-text">Chaque mercredi, un temps fort dédié à l'enseignement de la Parole, à la croissance spirituelle et à l'équipement des croyants pour exceller dans tous les domaines de leur vie.</p>
+            <div class="schedule"><i class="bi bi-calendar3"></i>Mercredi · 19h00 – 21h00</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── EGLISES FILLES ── -->
+<section id="eglises-filles" class="eglises-section">
+  <div class="container position-relative" style="z-index:1">
+    <div class="row align-items-end mb-4 reveal">
+      <div class="col-lg-7">
+        <span class="section-overline text-gold">Réseau National</span>
+        <h2 class="section-title" style="color:var(--white)">Nos Eglises <em>Filles</em> au Bénin</h2>
+        <div class="section-divider"></div>
+        <p style="color:rgba(255,255,255,0.55); font-size:0.88rem; font-weight:300; line-height:1.8; margin:0;">Présents dans les 12 départements du Bénin, nos églises filles forment un réseau vibrant portant la Parole de Dieu aux quatre coins du pays.</p>
+      </div>
+      <div class="col-lg-5 text-lg-end mt-3 mt-lg-0">
+        <div style="background:rgba(201,168,76,0.08);border:1px solid rgba(201,168,76,0.2);padding:0.9rem 1.2rem;display:inline-block;">
+          <p style="color:rgba(255,255,255,0.6);font-size:0.78rem;margin:0;font-weight:300;">
+            <i class="bi bi-info-circle text-gold me-2"></i>
+            Planter une église dans votre ville ? <a href="#prieres" style="color:var(--gold);">Contactez-nous</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Eglise Mère + Ligne 1 : Eglise Mère, VH Porto-Novo, VH Abomey-Calavi, VH Lokossa -->
+    <div class="row g-2 mb-2">
+      <div class="col-12 col-md-6 col-lg-3 reveal">
+        <div class="church-card eglise-mere h-100">
+          <span class="church-tag" style="margin-bottom:0.3rem;">★ Eglise Mère</span>
+          <div class="church-name">VH Cotonou Cadjehoun</div>
+          <div class="church-city">Cotonou · Littoral</div>
+          <div class="church-info">
+            <i class="bi bi-geo-alt-fill text-gold me-1"></i>Route de l'Aéroport, Cadjehoun<br>
+            <i class="bi bi-clock text-gold me-1"></i>Dim. 07h30 &amp; 10h30 · Mer. 18h30 · Ven. 19h00
+          </div>
+          <a href="https://maps.app.goo.gl/V4aKkkfreWFWXQoD6?g_st=ic" target="_blank" class="church-loc-link">
+            <i class="bi bi-geo-alt"></i>Voir la carte
+          </a>
+        </div>
+      </div>
+      <div class="col-6 col-md-6 col-lg-3 reveal reveal-delay-1">
+        <div class="church-card h-100">
+          <span class="church-tag">Eglise Fille</span>
+          <div class="church-name">VH Porto-Novo</div>
+          <div class="church-city">Ouémé</div>
+          <div class="church-info"><i class="bi bi-clock text-gold me-1"></i>Dim. 09h30</div>
+          <a href="https://maps.app.goo.gl/MFwGHsBknScDjsPM8?g_st=ic" target="_blank" class="church-loc-link"><i class="bi bi-geo-alt"></i>Localisation</a>
+        </div>
+      </div>
+      <div class="col-6 col-md-6 col-lg-3 reveal reveal-delay-2">
+        <div class="church-card h-100">
+          <span class="church-tag">Eglise Fille</span>
+          <div class="church-name">VH Abomey-Calavi</div>
+          <div class="church-city">Atlantique</div>
+          <div class="church-info"><i class="bi bi-clock text-gold me-1"></i>Dim. 09h00</div>
+          <a href="https://maps.app.goo.gl/wNqQF46e4YiPEoqg6?g_st=ic" target="_blank" class="church-loc-link"><i class="bi bi-geo-alt"></i>Localisation</a>
+        </div>
+      </div>
+      <div class="col-6 col-md-6 col-lg-3 reveal reveal-delay-3">
+        <div class="church-card h-100">
+          <span class="church-tag">Eglise Fille</span>
+          <div class="church-name">VH Lokossa</div>
+          <div class="church-city">Mono</div>
+          <div class="church-info"><i class="bi bi-clock text-gold me-1"></i>Dim. 09h30</div>
+          <a href="https://maps.google.com/?q=Lokossa+Benin" target="_blank" class="church-loc-link"><i class="bi bi-geo-alt"></i>Localisation</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ligne 2 : VH Akpakpa, VH Kétou, VH Parakou, VH Bohicon -->
+    <div class="row g-2">
+      <div class="col-6 col-md-6 col-lg-3 reveal reveal-delay-1">
+        <div class="church-card h-100">
+          <span class="church-tag">Eglise Fille</span>
+          <div class="church-name">VH Akpakpa</div>
+          <div class="church-city">Cotonou · Littoral</div>
+          <div class="church-info"><i class="bi bi-clock text-gold me-1"></i>Dim. 09h30</div>
+          <a href="https://maps.google.com?q=%C3%89glise%20Vases%20d'Honneur%20AKPAKPA,%20Cotonou&ftid=0x103cab4bf0143e91:0xa9abe51b9d410b35&entry=gps&shh=CAE&lucs=,94297699,100795621,94231188,94280568,47071704,94218641,94282134,94286869&g_st=ic" target="_blank" class="church-loc-link"><i class="bi bi-geo-alt"></i>Localisation</a>
+        </div>
+      </div>
+      <div class="col-6 col-md-6 col-lg-3 reveal reveal-delay-2">
+        <div class="church-card h-100">
+          <span class="church-tag">Eglise Fille</span>
+          <div class="church-name">VH Kétou</div>
+          <div class="church-city">Plateau</div>
+          <div class="church-info"><i class="bi bi-clock text-gold me-1"></i>Dim. 09h00</div>
+          <a href="https://maps.google.com/?q=Ketou+Benin" target="_blank" class="church-loc-link"><i class="bi bi-geo-alt"></i>Localisation</a>
+        </div>
+      </div>
+      <div class="col-6 col-md-6 col-lg-3 reveal reveal-delay-3">
+        <div class="church-card h-100">
+          <span class="church-tag">Eglise Fille</span>
+          <div class="church-name">VH Parakou</div>
+          <div class="church-city">Borgou</div>
+          <div class="church-info"><i class="bi bi-clock text-gold me-1"></i>Dim. 10h00</div>
+          <a href="https://maps.app.goo.gl/3Qjtp7NGuyMBZmxWA?g_st=ic" target="_blank" class="church-loc-link"><i class="bi bi-geo-alt"></i>Localisation</a>
+        </div>
+      </div>
+      <div class="col-6 col-md-6 col-lg-3 reveal reveal-delay-4">
+        <div class="church-card h-100">
+          <span class="church-tag">Eglise Fille</span>
+          <div class="church-name">VH Bohicon</div>
+          <div class="church-city">Zou</div>
+          <div class="church-info"><i class="bi bi-clock text-gold me-1"></i>Dim. 09h00</div>
+          <a href="https://maps.google.com/?q=Bohicon+Benin" target="_blank" class="church-loc-link"><i class="bi bi-geo-alt"></i>Localisation</a>
+        </div>
+      </div>
+    </div><!-- /row filles -->
+  </div>
+</section>
+
+<!-- ── FORMATIONS ── -->
+<section id="formations" class="formations-section">
+  <div class="container">
+    <div class="text-center mb-4 reveal">
+      <div class="gold-line justify-content-center">
+        <span>Discipulat & Équipement</span>
+      </div>
+      <h2 class="section-title">Nos <em>Formations</em></h2>
+      <div class="section-divider center"></div>
+      <p class="text-muted mx-auto" style="max-width:540px;font-size:0.88rem;font-weight:300;">Des programmes structurés pour former, équiper et envoyer des disciples de Christ solides et efficaces dans tous les domaines de la vie.</p>
+    </div>
+    <div class="row g-3">
+      <!-- Serviteurs -->
+      <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+        <div class="formation-card">
+          <div class="formation-bg" style="background-image:url('KODESH_FORMATION_SERVITEURS.jpg');background-color:var(--navy-mid);"></div>
+          <div class="formation-overlay"></div>
+          <div class="formation-content">
+            <span class="formation-tag">Leadership & Ministère</span>
+            <div class="formation-name">Formation<br>Serviteurs</div>
+            <a href="https://forms.gle/1WrUR4zo8ekctYK19" target="_blank" class="formation-cta formation-cta-visible">S'inscrire <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- Eden -->
+      <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+        <div class="formation-card">
+          <div class="formation-bg" style="background-image:url('KODESH_FORMATION_EDEN.jpg');background-color:var(--navy-mid);"></div>
+          <div class="formation-overlay"></div>
+          <div class="formation-content">
+            <span class="formation-tag">Mariage & Famille</span>
+            <div class="formation-name">Formation<br>Eden</div>
+            <a href="https://forms.gle/jyBeSPpuR4G6fJVZ6" target="_blank" class="formation-cta formation-cta-visible">S'inscrire <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- Académie -->
+      <div class="col-md-6 col-lg-4 reveal reveal-delay-3">
+        <div class="formation-card">
+          <div class="formation-bg" style="background-image:url('KODESH_ACADEMIE.jpg');background-color:var(--navy-mid);"></div>
+          <div class="formation-overlay"></div>
+          <div class="formation-content">
+            <span class="formation-tag">Théologie & Discipulat</span>
+            <div class="formation-name">Académie<br>Vase d'Honneur</div>
+            <a href="https://forms.gle/US8CLX4QoYKBb62U9" target="_blank" class="formation-cta formation-cta-visible">S'inscrire <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CTA Inscription -->
+    <div class="text-center mt-4 reveal">
+      <div style="background:var(--cream);padding:1.8rem 2rem;border-left:4px solid var(--gold);">
+        <p class="mb-1" style="font-size:0.72rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);">Prochaine session</p>
+        <h4 style="font-family:var(--font-display);font-size:1.5rem;color:var(--navy);font-weight:700;">Inscriptions ouvertes pour toutes les formations</h4>
+        <p style="font-size:0.85rem;color:var(--text-light);font-weight:300;max-width:500px;margin:0.6rem auto 1.2rem;">Places limitées. Soumettez votre demande dès maintenant pour recevoir les détails d'inscription.</p>
+        <a href="https://forms.gle/US8CLX4QoYKBb62U9" target="_blank" class="btn-primary-gold">Demander une Inscription</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PRIÈRES & TÉMOIGNAGES (FUSIONNÉ) ── -->
+<section id="prieres" class="priere-section">
+  <div class="container">
+    <div class="text-center mb-5 reveal">
+      <div class="gold-line justify-content-center">
+        <span>Intercession & Gloire à Dieu</span>
+      </div>
+      <h2 class="section-title">Prières &amp; <em>Témoignages</em></h2>
+      <div class="section-divider center"></div>
+      <p class="text-muted mx-auto" style="max-width:520px;font-size:0.88rem;font-weight:300;">Soumettez votre besoin de prière ou partagez ce que Dieu a accompli dans votre vie. Chaque voix compte pour la gloire du Seigneur.</p>
+    </div>
+
+    <div class="row g-4 align-items-stretch">
+
+      <!-- Colonne PRIÈRE -->
+      <div class="col-md-6 reveal reveal-delay-1">
+        <a href="https://forms.gle/xzffuUR8tUrDfEth6" target="_blank" class="action-card-link text-decoration-none d-block h-100">
+          <div class="action-card action-card-priere h-100">
+            <div class="action-card-icon">
+              <i class="bi bi-shield-fill-check"></i>
+            </div>
+            <div class="action-card-body">
+              <span class="action-card-tag">Intercession</span>
+              <h3 class="action-card-title">Soumettre une<br><em>Requête de Prière</em></h3>
+              <p class="action-card-desc">Notre équipe d'intercesseurs prie pour chaque besoin reçu — santé, famille, finances, délivrance. Soumettez votre requête en toute confidentialité. Nous croyons en un Dieu qui répond.</p>
+              <div class="action-card-verse">
+                <p>"Ne vous inquiétez de rien, mais en toutes choses faites connaître vos besoins à Dieu..."</p>
+                <span>— Philippiens 4:6</span>
+              </div>
+              <div class="action-card-cta">
+                <span>Soumettre ma Requête</span>
+                <i class="bi bi-arrow-right-circle-fill"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Colonne TÉMOIGNAGE -->
+      <div class="col-md-6 reveal reveal-delay-2">
+        <a href="https://forms.gle/vgwhjamRUE8cQqjn8" target="_blank" class="action-card-link text-decoration-none d-block h-100">
+          <div class="action-card action-card-temoignage h-100">
+            <div class="action-card-icon">
+              <i class="bi bi-megaphone-fill"></i>
+            </div>
+            <div class="action-card-body">
+              <span class="action-card-tag">Gloire à Dieu</span>
+              <h3 class="action-card-title">Partager votre<br><em>Témoignage</em></h3>
+              <p class="action-card-desc">Dieu a agi dans votre vie ? Guérison, délivrance, miracle, restauration — partagez votre témoignage pour encourager toute la communauté et magnifier le nom du Seigneur.</p>
+              <div class="action-card-verse">
+                <p>"Ils l'ont vaincu à cause du sang de l'Agneau et à cause de la parole de leur témoignage..."</p>
+                <span>— Apocalypse 12:11</span>
+              </div>
+              <div class="action-card-cta">
+                <span>Partager mon Témoignage</span>
+                <i class="bi bi-arrow-right-circle-fill"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div><!-- /row -->
+  </div>
+</section>
+
+<!-- ── TÉMOIGNAGES AFFICHÉS ── -->
+<section id="temoignages" class="temoignages-section">
+  <div class="container position-relative">
+    <div class="text-center mb-4 reveal">
+      <div class="gold-line justify-content-center">
+        <span>Gloire à Dieu</span>
+      </div>
+      <h2 class="section-title">Leurs <em>Témoignages</em></h2>
+      <div class="section-divider center"></div>
+      <p class="text-muted mx-auto" style="max-width:520px;font-size:0.88rem;font-weight:300;">Des vies transformées, des miracles accomplis, des familles restaurées. La gloire de Dieu se manifeste au sein de notre église.</p>
+    </div>
+
+    <div class="row g-2 mb-3" style="--bs-gutter-x:0.5rem;">
+      <div class="col-6 col-md-4 col-lg-2 reveal reveal-delay-1 d-flex">
+        <div class="temoignage-card d-flex flex-column w-100">
+          <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+          <p class="temoignage-quote">Après trois séances de prière au Vendredi des Miracles, ma maladie incurable a disparu. Les examens médicaux ne montrent plus rien. Dieu est vivant !</p>
+          <div class="temoignage-author">
+            <div class="temoignage-avatar">JK</div>
+            <div><span class="temoignage-name">Jean-Koffi A.</span><span class="temoignage-church">VH Cotonou</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 reveal reveal-delay-2 d-flex">
+        <div class="temoignage-card d-flex flex-column w-100">
+          <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+          <p class="temoignage-quote">Grâce à la Formation Eden, mon mari et moi avons retrouvé l'amour et la paix que Dieu avait préparés pour notre foyer.</p>
+          <div class="temoignage-author">
+            <div class="temoignage-avatar">MA</div>
+            <div><span class="temoignage-name">Marie-Ange D.</span><span class="temoignage-church">VH Porto-Novo</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 reveal reveal-delay-3 d-flex">
+        <div class="temoignage-card d-flex flex-column w-100">
+          <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+          <p class="temoignage-quote">L'Académie a transformé ma foi. Je mène maintenant des études bibliques dans mon quartier à Parakou avec assurance et conviction.</p>
+          <div class="temoignage-author">
+            <div class="temoignage-avatar">SK</div>
+            <div><span class="temoignage-name">Samuel K.</span><span class="temoignage-church">VH Parakou</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 reveal reveal-delay-4 d-flex">
+        <div class="temoignage-card d-flex flex-column w-100">
+          <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+          <p class="temoignage-quote">Après 8 ans d'attente, Dieu m'a accordé la maternité suite aux prières d'intercession de l'église. Ma fille a aujourd'hui 2 ans !</p>
+          <div class="temoignage-author">
+            <div class="temoignage-avatar">EG</div>
+            <div><span class="temoignage-name">Esther G.</span><span class="temoignage-church">VH Abomey-Calavi</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 reveal reveal-delay-1 d-flex">
+        <div class="temoignage-card d-flex flex-column w-100">
+          <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+          <p class="temoignage-quote">La Formation Serviteurs a révélé ma vocation. Je dirige maintenant un groupe de maison de 25 personnes à Bohicon. Gloire à Dieu !</p>
+          <div class="temoignage-author">
+            <div class="temoignage-avatar">DH</div>
+            <div><span class="temoignage-name">David H.</span><span class="temoignage-church">VH Bohicon</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 reveal reveal-delay-2 d-flex">
+        <div class="temoignage-card d-flex flex-column w-100">
+          <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+          <p class="temoignage-quote">Mon entreprise était en faillite. En revenant à la dîme, Dieu a retourné ma situation en moins de 6 mois. Toute gloire à lui !</p>
+          <div class="temoignage-author">
+            <div class="temoignage-avatar">PL</div>
+            <div><span class="temoignage-name">Pierre L.</span><span class="temoignage-church">VH Lokossa</span></div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /row temoignages -->
+  </div>
+</section>
+
+<!-- ── DONNEZ ── -->
+<section id="donnez" class="donnez-section">
+  <div class="container position-relative">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5 reveal">
+        <span class="section-overline">Dîmes & Offrandes</span>
+        <h2 class="donnez-title">Soutenez<br>l'<em>Œuvre</em><br>de Dieu</h2>
+        <div class="section-divider" style="width:60px;height:2px;background:var(--gold);margin:1.5rem 0;"></div>
+        <p style="font-size:0.88rem;color:rgba(255,255,255,0.55);font-weight:300;line-height:1.9;">Vos dîmes et offrandes permettent de soutenir les programmes, les formations, les missions et l'extension du Royaume de Dieu au Bénin.</p>
+        <div class="verse-block mt-3">
+          <p class="verse-text">"Donnez, et il vous sera donné : on versera dans votre sein une bonne mesure, pressée, secouée et qui déborde."</p>
+          <span class="verse-ref">— Luc 6:38</span>
+        </div>
+      </div>
+      <div class="col-lg-7 reveal-right">
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <div class="payment-method">
+              <i class="bi bi-phone" style="font-size:2rem;color:var(--gold);display:block;margin-bottom:0.8rem;"></i>
+              <div class="pm-name">MTN MoMo</div>
+              <div class="pm-num">+229 01 96 12 41 10</div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="payment-method">
+              <i class="bi bi-phone" style="font-size:2rem;color:var(--gold);display:block;margin-bottom:0.8rem;"></i>
+              <div class="pm-name">Moov Money</div>
+              <div class="pm-num">+229 XX XX XX XX</div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="payment-method">
+              <i class="bi bi-credit-card" style="font-size:2rem;color:var(--gold);display:block;margin-bottom:0.8rem;"></i>
+              <div class="pm-name">Carte Bancaire</div>
+              <div class="pm-num">Visa · Mastercard</div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="payment-method">
+              <i class="bi bi-bank" style="font-size:2rem;color:var(--gold);display:block;margin-bottom:0.8rem;"></i>
+              <div class="pm-name">Virement Bancaire</div>
+              <div class="pm-num">BCEAO · Ecobank</div>
+            </div>
+          </div>
+          <div class="col-12">
+            <a href="#" class="btn-primary-gold d-block text-center" style="padding:1rem;">
+              <i class="bi bi-heart-fill me-2"></i>Faire une Offrande en Ligne
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-4">
+        <div class="footer-logo">Vase d'Honneur <span style="color:rgba(255,255,255,0.3);font-size:1rem;">· Bénin</span></div>
+        <p class="footer-about">Une église ancrée dans la Parole de Dieu, rayonnant la gloire de Christ à travers tout le Bénin. Depuis Cotonou jusqu'aux confins du pays, nous portons le feu de l'Évangile.</p>
+        <div class="social-links">
+          <a class="social-link" href="#"><i class="bi bi-facebook"></i></a>
+          <a class="social-link" href="#"><i class="bi bi-youtube"></i></a>
+          <a class="social-link" href="#"><i class="bi bi-instagram"></i></a>
+          <a class="social-link" href="#"><i class="bi bi-whatsapp"></i></a>
+        </div>
+
+        <!-- Logos partenaires -->
+        <div class="footer-logos mt-4">
+          <p style="font-size:0.6rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.3);margin-bottom:1rem;">Membres de</p>
+          <div class="d-flex align-items-center gap-4 flex-wrap">
+            <!-- Logo VH APDC réel -->
+            <div class="footer-logo-badge" title="Vases d'Honneur — Assemblée Porte des Cieux">
+              <img src="img/logo-apdc.png" alt="VH Assemblée Porte des Cieux" style="height:70px;width:auto;filter:drop-shadow(0 2px 10px rgba(0,0,0,0.6));">
+            </div>
+
+            <div style="width:1px;height:50px;background:rgba(201,168,76,0.2);align-self:center;"></div>
+
+            <!-- Logo Messages de Vie réel -->
+            <div class="footer-logo-badge" title="Messages de Vie">
+              <img src="img/logo-messages-de-vie.png" alt="Messages de Vie" style="height:70px;width:auto;filter:brightness(1.05) drop-shadow(0 2px 10px rgba(0,0,0,0.6));">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-2">
+        <h6>Navigation</h6>
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#about">À Propos</a></li>
+          <li><a href="#programmes">Programmes</a></li>
+          <li><a href="#formations">Formations</a></li>
+          <li><a href="#eglises-filles">Eglises Filles</a></li>
+          <li><a href="#prieres">Prières</a></li>
+          <li><a href="#temoignages">Témoignages</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <h6>Formations</h6>
+        <ul>
+          <li><a href="#formations">Formation Serviteurs</a></li>
+          <li><a href="#formations">Formation Eden (Mariage)</a></li>
+          <li><a href="#formations">Académie Vase d'Honneur</a></li>
+        </ul>
+        <h6 class="mt-4">Horaires</h6>
+        <ul>
+          <li>Dimanche · 07h30–10h00 & 10h30–13h30 </li>
+          <li>Mercredi · 19h00 - 21h00 </li>
+          <li>Vendredi · 19h00 - 21h00 </li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h6>Contact</h6>
+        <ul class="footer-contact">
+          <li><i class="bi bi-geo-alt-fill"></i>Rte de l'Aéroport, Cadjehoun, Cotonou, Bénin</li>
+          <li><i class="bi bi-telephone-fill"></i>+229 XX XX XX XX</li>
+          <li><i class="bi bi-envelope-fill"></i>contact@eglisesvhbenin.com</li>
+          <li><i class="bi bi-globe"></i>www.eglisesvhbenin.com</li>
+        </ul>
+        <h6 class="mt-4">Newsletter</h6>
+        <div class="input-group newsletter-input-group">
+          <input type="email" class="form-control" placeholder="Votre email">
+          <button class="btn btn-offrande" type="button"><i class="bi bi-send"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+      <span>© 2026 Eglise Vase d'Honneur Bénin. Tous droits réservés.</span>
+      <span>Fait avec <i class="bi bi-heart-fill text-gold"></i> pour la gloire de Dieu</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Scroll to top -->
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+  <i class="bi bi-arrow-up"></i>
+</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
