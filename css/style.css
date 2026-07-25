@@ -1074,7 +1074,7 @@
       .hero-carousel { height: 65svh; min-height: 360px; }
       .carousel-item { height: 65svh; }
       .priere-info-card { margin-bottom: 1rem; }
-      section { padding-left: 0.5rem; padding-right: 0.5rem; }
+      section { padding-left: 0rem; padding-right: 0rem; }
     }
     @media (max-width: 767px) {
       .stat-divider { display: none; }
@@ -1104,7 +1104,7 @@
       .prog-card .card-body { padding: 0 1rem 1rem; }
       .value-item { margin-bottom: 0.6rem; }
       .gold-line { margin-bottom: 0.6rem; }
-      .container { padding-left: 0.75rem; padding-right: 0.75rem; }
+      .container { padding-left: 2rem; padding-right: 2rem; }
       .church-name { font-size: 0.82rem; }
       .church-city { font-size: 0.6rem; }
       .church-info { font-size: 0.65rem; }
