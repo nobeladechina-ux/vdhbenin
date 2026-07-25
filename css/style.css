@@ -1092,7 +1092,7 @@
       .carousel-item { height: 55svh; }
       .hero-overline { font-size: 0.6rem; letter-spacing: 2px; margin-bottom: 0.4rem; }
       .hero-ctas { gap: 0.5rem; }
-      .btn-primary-gold, .btn-outline-gold { padding: 0.6rem 1rem; font-size: 0.7rem; }
+      .btn-primary-gold, .btn-outline-gold { padding: 0.1rem 1rem; font-size: 0.7rem; }
       .about-image-main { height: 180px; }
       .formation-card { height: 260px; }
       .church-card { padding: 0.8rem; }
