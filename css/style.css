@@ -2,15 +2,15 @@
       --gold: #C9A84C;
       --gold-light: #E8C96B;
       --gold-dark: #8B6914;
-      --navy: #0B1A35;
-      --navy-mid: #12274F;
-      --navy-light: #1A3568;
+      --navy: #006c68;
+      --navy-mid: #005450;
+      --navy-light: #006c68;
       --white: #FFFFFF;
       --cream: #F9F5EC;
       --text: #2C2C2C;
       --text-light: #6B6B6B;
-      --font-display: 'Playfair Display', serif;
-      --font-body: 'Raleway', sans-serif;
+      --font-display: 'Poppins', sans-serif;
+      --font-body: 'Poppins', sans-serif;
     }
 
     * { box-sizing: border-box; }
@@ -933,7 +933,7 @@
 
     /* ── FOOTER ── */
     footer {
-      background: #060F1F;
+      background: #001f1e;
       color: rgba(255,255,255,0.7);
       padding: 5rem 0 0;
     }
