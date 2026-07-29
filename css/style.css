@@ -24,9 +24,18 @@
       overflow-x: hidden;
     }
 
+.hero-title em,
+.section-title em,
+.donnez-title em,
+.action-card-title em,
+.footer-logo em {
+  font-style: normal;
+  font-weight: 700;
+}
+
     /* ── NAVBAR ── */
     .navbar {
-      background: rgba(11, 26, 53, 0.97) !important;
+      background: rgba(0, 56, 53, 0.97) !important;
       backdrop-filter: blur(12px);
       padding: 0.4rem 0;
       transition: all 0.3s ease;
