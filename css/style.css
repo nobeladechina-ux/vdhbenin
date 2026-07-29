@@ -162,7 +162,7 @@
       opacity: 0;
       animation: fadeUp 0.8s ease 0.5s forwards;
     }
-    .hero-title em { color: var(--gold); font-style: italic; }
+.hero-title em { color: var(--gold); font-style: normal; font-weight: 800; }
     .hero-subtitle {
       font-size: 0.9rem;
       font-weight: 300;
@@ -440,7 +440,7 @@
       opacity: 0.06;
     }
     .church-card {
-      background: rgba(255,255,255,0.04);
+      background: rgba(0, 56, 53, 0.4);
       border: 1px solid rgba(201,168,76,0.15);
       padding: 1.2rem;
       transition: all 0.3s;
