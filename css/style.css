@@ -35,7 +35,7 @@
 
     /* ── NAVBAR ── */
     .navbar {
-      background: rgba(0, 56, 53, 0.97) !important;
+      background: rgba(0, 108, 104, 0.5) !important;
       backdrop-filter: blur(12px);
       padding: 0.4rem 0;
       transition: all 0.3s ease;
