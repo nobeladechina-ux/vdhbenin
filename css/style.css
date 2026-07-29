@@ -244,7 +244,7 @@
       line-height: 1.15;
       margin-bottom: 1rem;
     }
-    .section-title em { color: var(--gold); font-style: italic; }
+    .section-title em { color: var(--gold); font-style: normal; font-weight: 700; }
     .section-divider {
       width: 50px; height: 2px;
       background: linear-gradient(to right, var(--gold), transparent);
@@ -901,7 +901,7 @@
       font-weight: 700;
       color: var(--white);
     }
-    .donnez-title em { color: var(--gold); font-style: italic; }
+    .donnez-title em { color: var(--gold); font-style: normal; font-weight: 800; }
     .payment-method {
       background: rgba(255,255,255,0.05);
       border: 1px solid rgba(201,168,76,0.2);
