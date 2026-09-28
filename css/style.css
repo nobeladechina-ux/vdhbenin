@@ -553,7 +553,7 @@
     .formation-card {
       position: relative;
       overflow: hidden;
-      height: 320px;
+      height: 220px;
       cursor: pointer;
     }
     .formation-bg {
