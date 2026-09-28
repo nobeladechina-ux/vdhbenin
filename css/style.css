@@ -846,9 +846,9 @@
       content: '"';
       font-size: 2rem;
       color: var(--gold);
-      line-height: 0.5;
+      line-height: 0.1;
       display: block;
-      margin-bottom: 0.7rem;
+      margin-bottom: 0.1rem;
     }
     .temoignage-author { display: flex; align-items: center; gap: 0.6rem; }
     .temoignage-avatar {
